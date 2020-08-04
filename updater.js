@@ -1,19 +1,18 @@
 const os = require("os");
-const { app, autoUpdater, dialog } = require("electron");
-
-const checking = new Notification("update", {
-	body: "checking-for-update",
-});
-
-const available = new Notification("update", {
-	body: "update-available",
-});
-
-const unavailable = new Notification("update", {
-	body: "update-not-available",
-});
+const { Notification, app, autoUpdater, dialog } = require("electron");
 
 function appUpdater() {
+	const checking = new Notification("update", {
+		body: "checking-for-update",
+	});
+
+	const available = new Notification("update", {
+		body: "update-available",
+	});
+
+	const unavailable = new Notification("update", {
+		body: "update-not-available",
+	});
 	autoUpdater.on("error", (err) => console.log(err));
 	autoUpdater.on("checking-for-update", () => {
 		checking.show();
