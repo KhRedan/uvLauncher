@@ -10,6 +10,7 @@
 		"url": "https://github.com/KhRedan/uvLauncher.git"
 	},
 	"devDependencies": {
+		"electron": "^9.1.2",
 		"electron-builder": "^22.7.0",
 		"electron-packager": "^14.2.1"
 	},
@@ -19,7 +20,6 @@
 		"deploy": "electron-builder build --win --publish always"
 	},
 	"dependencies": {
-		"electron": "^9.1.2",
 		"electron-is-dev": "^1.2.0",
 		"electron-updater": "^4.3.4"
 	}
