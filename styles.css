@@ -1,0 +1,124 @@
+body {
+  background-image: url("launcher.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: repeat;
+}
+#playbut {
+  position: absolute;
+  width: 15vw;
+  height: 10vh;
+  flex-direction: row;
+  text-align: center;
+  font-size: 4vh;
+  padding: 1vmax;
+  border-radius: 2vmin;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  top: 80vh;
+  left: 42vw;
+  cursor: pointer;
+}
+
+#playbut:hover {
+  border: 0.2vmin solid #d3ba62;
+}
+
+#fermer {
+  position: absolute;
+  height: 4vh;
+  width: 2vw;
+  color: #cccccc;
+  font-size: 2vmin;
+  right: 1vw;
+  cursor: pointer;
+  font-weight: bold;
+  vertical-align: center;
+}
+
+#fermer:hover {
+  border: 0.2vmin solid #ff0000;
+}
+
+#reduire {
+  position: absolute;
+  height: 4vh;
+  width: 2vw;
+  color: #cccccc;
+  font-size: 2vmin;
+  right: 4vw;
+  cursor: pointer;
+  font-weight: bold;
+  vertical-align: center;
+}
+
+#reduire:hover {
+  border: 0.2vmin solid #0000ff;
+}
+
+#instagram {
+  position: absolute;
+  top: 90vh;
+  left: 5vw;
+  cursor: pointer;
+}
+
+#instagram:hover {
+  border: 0.2vmin solid #d3ba62;
+}
+
+#facebook {
+  position: absolute;
+  top: 90vh;
+  left: 10vw;
+  cursor: pointer;
+}
+
+#facebook:hover {
+  border: 0.2vmin solid #d3ba62;
+}
+
+#teamspeak {
+  position: absolute;
+  top: 90vh;
+  left: 42vw;
+  width: 15vw;
+  height: 10vh;
+  cursor: pointer;
+}
+
+#teamspeak:hover {
+  border: 0.2vmin solid #d3ba62;
+}
+
+#discord {
+  position: absolute;
+  top: 90vh;
+  left: 0vw;
+  cursor: pointer;
+}
+
+#discord:hover {
+  border: 0.2vmin solid #d3ba62;
+}
+
+#youtube {
+  position: absolute;
+  top: 90vh;
+  left: 15vw;
+  cursor: pointer;
+}
+
+#youtube:hover {
+  border: 0.2vmin solid #d3ba62;
+}
+
+body button {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 2vmin;
+  border: 0.2vmin solid #000000;
+}
+body button img {
+  height: 5vh;
+  width: auto;
+}
