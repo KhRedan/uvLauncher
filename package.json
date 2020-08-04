@@ -1,6 +1,6 @@
 {
 	"name": "unitedvision",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"main": "main.js",
 	"description": "Le Launcher de United Vision",
 	"icon": "icon.png",
