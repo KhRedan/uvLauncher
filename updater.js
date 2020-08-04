@@ -2,7 +2,8 @@ const os = require("os");
 const { Notification, app, autoUpdater, dialog } = require("electron");
 
 function appUpdater() {
-	autoUpdater.checkForUpdates();
+	autoUpdater.setFeedURL("https://github.com/KhRedan/uvLauncher.git");
+	autoUpdater.checkForUpdatesAndNotify();
 	const checking = new Notification("update", {
 		body: "checking-for-update",
 	});

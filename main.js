@@ -50,7 +50,7 @@ function createWindow() {
 
 	const page = win.webContents;
 
-	page.once("did-frame-finish-load", () => {
+	page.once("ready-to-show", () => {
 		if (!isDev) {
 			appUpdater();
 		}
